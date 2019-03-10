@@ -1,0 +1,161 @@
+Esta herramienta, tiene el objetivo de proveer de una solucion comoda a la edicion de mapas, sin necesidad de hacer constantes ripents en uno o mas mapas.
+
+La herramienta provee extensas posibilidades de modificar los mapas, pudiendose ajustar cualquier mapa a cualquier necesidad segun corresponda, sea o no sea para calibrarlo segun "dificultades".
+
+Como usar esta herramienta?
+
+El primer paso, es crear un archivo especial en el siguiente directorio:
+
+svencoop/scripts/plugins/SDX/maps/<mapname>.ent
+
+> Donde <mapname> es el nombre del mapa a editarse.
+
+El siguiente paso es editar este nuevo archivo creado, y dentro de esta se escribira diferente contenido segun lo que se desea realizar con el mapa.
+
+- AGREGAR ENTIDADES -
+
+Para crear (o bien agregar) entidades en el mapa, se utiliza la directiva ADD_ENTITY, y se crea la entrada de la misma forma que un ripent. Por ejemplo:
+
+ADD_ENTITY
+{
+"origin" "2392 2844 1072"
+"message" "Sample Text"
+"targetname" "sample_entity"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "3"
+"fadeout" "0.5"
+"fadein" "0.5"
+"color2" "255 255 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+
+Como se puede observar, el agregado de entidades es 1:1 con el uso clasico de ripent.
+
+- EDITAR ENTIDADES -
+
+Para modificar una entidad ya existente en un mapa, se utiliza primero la directiva EDIT_ENTITY, seguido del = y el lo que queremos editar. Hecho eso, se procede a escribir las nuevas keyvalues de la entidad. Por ejemplo, si deseamos editar nuestro "Sample Text" para que muestre otro texto y cambiarlo de posicion, usamos lo siguiente:
+
+EDIT_ENTITY=sample_entity
+{
+"message" "Another Text"
+"y" "0.7"
+"x" "0.3"
+}
+
+El formato de las ediciones es exactamente igual a la creacion de entidades, sin embargo aqui, solamente se escriben las keyvalues que se desean editar; No es necesario volver a crear toda la estructura completa.
+
+Un detalle final, en este ultimo ejemplo editamos el game_text segun su targetname, pero si deseamos editar todos los, por ejemplo, squadmaker del mapa? Tambien se puede, simplemente se escribe el classname. Habiendo dicho esto, la directiva EDIT_ENTITY ejecuta su busqueda en el siguiente orden:
+
+Primero, buscara por TARGETNAME.
+Segundo, buscara por CLASSNAME.
+
+Si no encuentra ninguna entidad en los 2 criterios especificados, intentara buscar segun brush model number.
+
+Por ejemplo: EDIT_ENTITY=*15
+
+>IMPORTANTE: La directiva EDIT_ENTITY edita TODAS las entidades que cumplan con la condicion especificada. Cuidado con realizar ediciones no deseadas.
+
+- BORRAR ENTIDADES -
+
+El borrado de entidades se puede realizar de 3 maneras diferentes, y de manera muy sencila con las siguientes directivas:
+
+DELETE_ENT_BY_TARGETNAME=<targetname>
+DELETE_ENT_BY_CLASSNAME=<classname>
+DELETE_ENT_BY_BRUSHMODEL=*<brush model number>
+
+La primera elimina TODAS las entidades que tengan el targetname especificado. Ejemplo: sample_text
+La segunda elimina TODAS las entidades que tengan el classname especificado. Ejemplo: game_text
+
+La tercera es de uso mas especifico, esta tercera directiva permite eliminar brush models especificos. Por ejemplo: Deseamos eliminar un func_button que NO tiene targetname, pero sabemos que al inspeccionar el mapa, este tiene model de "*15". Entonces utilizamos este *15 para eliminar el boton que queremos desechar (DELETE_ENT_BY_BRUSHMODEL=*15).
+
+>IMPORTANTE: En el tercer caso, no olvidarse el asterisco!
+
+- EDICION DE MAPAS SEGUN DIFICULTAD - 
+
+Si se desea agregar/editar/borrar entidades segun la dificultad elegida de un mapa, se lo realiza mediante el uso de "etiquetas", estas empiezan con [] y finalizan con [/].
+
+Las etiquetas deben tener un nombre especifico, o todo el contenido dentro de estas seran ignoradas. Estos nombres son:
+
+[GLOBAL][/GLOBAL] = Lo escrito dentro de esta etiqueta se ejecutara sin importar la dificultad.
+[BEGINNER][/BEGINNER] = Lo escrito dentro de esta etiqueta se ejecutara unicamente en dificultad Beginner.
+[NORMAL][/NORMAL] = Lo escrito dentro de esta etiqueta se ejecutara unicamente en dificultad Normal.
+[HARD][/HARD] = Lo escrito dentro de esta etiqueta se ejecutara unicamente en dificultad Hard.
+[SUICIDE][/SUICIDE] = Lo escrito dentro de esta etiqueta se ejecutara unicamente en dificultad Suicide.
+[HELL][/HELL] = Lo escrito dentro de esta etiqueta se ejecutara unicamente en dificultad Hell on Earth.
+
+Por ejemplo, si deseamos crear, editar, y borrar una entidad en la dificultad "Hard", se armaria la etiqueta y su contenido de la siguiente manera:
+
+[HARD]
+ADD_ENTITY
+{
+"origin" "2392 2844 1072"
+"message" "Sample Text"
+"targetname" "sample_entity"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "3"
+"fadeout" "0.5"
+"fadein" "0.5"
+"color2" "255 255 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+
+EDIT_ENTITY=sample_monster
+{
+"displayname" "Edited Sample Monster"
+}
+
+DELETE_ENT_BY_TARGETNAME=sample_deletion
+[/HARD]
+
+- PRECACHE -
+
+Todas las ediciones de los mapas que especifiquemos en este archivo se realizan DESPUES de haberse cargado el mapa. Esto significa que si agregamos en una dificultad un NPC que no existe en el mapa, crasheara por no estar dicho NPC precacheado.
+
+Afortunamente, esto tiene un remedio muy facil, desde este mismo archivo tambien se pueden precachear manualmente cualquier cantidad de entidades, models o sonidos adicionales que se necesiten con las directivas PRECACHE_ENTITY, PRECACHE_MODEL y PRECACHE_SOUND.
+
+PRECACHE_ENTITY se puede usar para precachear todos los models y sonidos que una entidad use (por ejemplo, un monster_hwgrunt).
+PRECACHE_MODEL se puede usar tanto para models en si (.mdl) como para sprites (.spr).
+PRECACHE_SOUND se puede usar para cualquier sonido que soporte el motor FMOD del juego.
+
+Estas ultimas 2 directivas se pueden usar para precachear models y sonidos de manera manual, en el caso de requerir un uso mas especifico
+
+Para precachear una entidad, model y/o sonido, se introducen estas directivas AL COMIENZO DEL ARCHIVO, seguido del simbolo = y la entidad, model o sonido a precachear. Por ejemplo:
+
+PRECACHE_ENTITY=monster_hwgrunt
+PRECACHE_MODEL=models/agrunt.mdl
+PRECACHE_MODEL=sprites/cexplo.spr
+PRECACHE_SOUND=ambience/the_horror3.wav
+
+>IMPORTANTE: Toda directiva PRECACHE debe estar SI O SI al comienzo del archivo! Si cualquier otra directiva que no sea un precache es detectada, el sistema asumira que ya no habra nada mas que precachear y dejara de analizar el resto del archivo.
+
+- Advertencia "NO BEGINNER" -
+
+Como nada impide crear entidades que maten a todos los jugadores apenas comenzada una partida en dificultad Beginner, existe una directiva especial para advertir de este comportamiento a los jugadores antes que esto ocurra.
+
+La dificultad Beginner, al bajar drasticamente la dificultad reduciendo los daños recibidos en un 25%. Hace muchos mapas demasiado faciles, y les elimina todo desafio, ademas de evitar que se suba muy facil los Perks al limitarlo a un maximo de Level 1.
+
+Cabe aclarar que esta dificultad fue creada con la intencion de permitir al nuevo jugador adaptarse a la modalidad SDX como tambien asistir a alguien que nunca jugo una modalidad Survival antes haciendo algunos mapas mas faciles con herramientas extras y daño reducido. Lamentablemente, se ha abusado de esta dificultad y su proposito es ahora obsoleto, los jugadores solo utilizan la dificultad por el solo hecho de querer tener todo servido en bandeja de plata. Esto obligo a que algunos mapas penalizen a los jugadores por usar esta dificultad.
+
+Eliminar la dificultad Beginner por completo seria perjudicar a los pocos que usan de manera legitima esta dificultad. Por que por culpa de unos pocos se deben joder todos? Es por esto que la modalidad Beginner, aunque ya no sea la misma, no sera eliminada.
+
+Ahora bien, como decirles a los jugadores que existen estas penalizaciones? Con esta nueva directiva.
+
+NO_BEGINNER_WARN=1
+
+Esta directiva se coloca al comienzo del archivo, puede ser antes o despues de las directivas precache, pero debe usarse antes de iniciarse las etiquetas (comienzo del archivo). Hecho esto el menu de partida advertira a los jugadores con el siguiente mensaje:
+
+"Este mapa castiga el uso de la dificultad BEGINNER! Cuidado antes de empezar la partida".
+
+---
+
+Por complejo y complicado que esta herramienta paresca, tiene el privilegio de poder realizar todas las modificaciones necesarias sin recurrir constantemente al ripent. Good luck editing!
