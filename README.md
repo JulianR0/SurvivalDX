@@ -26,7 +26,7 @@ Esto lleva a un segundo problema, como puedes ver, estoy utilizando el modulo *H
 Y finalmente tercer y ultimo problema, si intentase dejar todo en AMXX.
 ................................................................................................................................
 
-No creo que alcanzen los puntos suspensivos para explicar que simplemente no es posible, el trabajo sencillamente no lo vale. Aunque, puedo al menos explicar uno de las razones: El plugin lee los archivos **.cfg** para detectar la vida y armadura maxima de los mapas para se que se ajusten a los Perks. Esta lectura no puede hacerse por AngelScript, ya que dicha API no permite acceso de lectura fuera de la carpeta **svencoop/scripts/plugins**. SOLO PIDO LECTURA! Y aun asi parece ser algo que los desarrolladores no quieren hablar, ni hablaran en el futuro. Tuve que utilizar AMXX para esta tarea.
+No creo que alcanzen los puntos suspensivos para explicar que simplemente no es posible, el trabajo sencillamente no lo vale.
 ## Archivos del proyecto
 Este proyecto se maneja con los siguientes archivos:
 
