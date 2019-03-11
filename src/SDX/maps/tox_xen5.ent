@@ -1,0 +1,102 @@
+NO_BEGINNER_WARN=1
+
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "-2132 -2836 2830"
+"spawnflags" "2"
+"targetname" "normal_checkpoint"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-836 2646 2830"
+"spawnflags" "2"
+"targetname" "hard_checkpoint"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "2000 2268 2650"
+"spawnflags" "2"
+"targetname" "suicide_checkpoint"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-3446 -2486 3080"
+"spawnflags" "2"
+"targetname" "hell_checkpoint"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "952 1016 2872"
+"target" "!activator"
+"m_iszValueName" "effects"
+"m_iszNewValue" "128"
+"m_iszValueType" "0"
+"targetname" "hide_my_body"
+"classname" "trigger_changevalue"
+}
+
+EDIT_ENTITY=squadmaker
+{
+"monstercount" "1"
+}
+[/GLOBAL]
+
+[BEGINNER]
+ADD_ENTITY
+{
+"origin" "-3220 1690 3080"
+"spawnflags" "2"
+"targetname" "beginner_checkpoint"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "952 1016 2872"
+"hide_my_body" "0"
+"targetname" "game_playerdie"
+"classname" "multi_manager"
+}
+[/BEGINNER]
+
+[HARD]
+ADD_ENTITY
+{
+"origin" "952 1016 2872"
+"normal_checkpoint" "0#2"
+"targetname" "gmane_txt_mm"
+"classname" "multi_manager"
+}
+[/HARD]
+
+[SUICIDE]
+ADD_ENTITY
+{
+"origin" "952 1016 2872"
+"normal_checkpoint" "0#2"
+"hard_checkpoint" "0#2"
+"targetname" "gmane_txt_mm"
+"classname" "multi_manager"
+}
+[/SUICIDE]
+
+[HELL]
+ADD_ENTITY
+{
+"origin" "952 1016 2872"
+"normal_checkpoint" "0#2"
+"hard_checkpoint" "0#2"
+"suicide_checkpoint" "0#2"
+"targetname" "gmane_txt_mm"
+"classname" "multi_manager"
+}
+[/HELL]

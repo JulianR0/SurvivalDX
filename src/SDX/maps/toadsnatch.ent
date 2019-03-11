@@ -1,0 +1,79 @@
+[GLOBAL]
+DELETE_ENT_BY_TARGETNAME=bat_tel_master1_r
+DELETE_ENT_BY_TARGETNAME=jesus_sprites1
+ADD_ENTITY
+{
+"origin" "416 548 -770"
+"-m_fSpawnEffect" "1"
+"m_iszCrtEntChildClass" "point_checkpoint"
+"targetname" "checkpoint1_a"
+"classname" "trigger_createentity"
+}
+
+DELETE_ENT_BY_TARGETNAME=bat_tel_master2_r
+DELETE_ENT_BY_TARGETNAME=jesus_sprites2
+ADD_ENTITY
+{
+"origin" "-416 548 -770"
+"-m_fSpawnEffect" "1"
+"m_iszCrtEntChildClass" "point_checkpoint"
+"targetname" "checkpoint2_a"
+"classname" "trigger_createentity"
+}
+
+DELETE_ENT_BY_TARGETNAME=bat_tel_master3_r
+DELETE_ENT_BY_TARGETNAME=jesus_sprites3
+ADD_ENTITY
+{
+"origin" "-416 1368 -770"
+"-m_fSpawnEffect" "1"
+"m_iszCrtEntChildClass" "point_checkpoint"
+"targetname" "checkpoint3_a"
+"classname" "trigger_createentity"
+}
+
+DELETE_ENT_BY_TARGETNAME=bat_tel_master4_r
+DELETE_ENT_BY_TARGETNAME=jesus_sprites4
+ADD_ENTITY
+{
+"origin" "416 1368 -770"
+"-m_fSpawnEffect" "1"
+"m_iszCrtEntChildClass" "point_checkpoint"
+"targetname" "checkpoint4_a"
+"classname" "trigger_createentity"
+}
+
+ADD_ENTITY
+{
+"origin" "-285 935 -192"
+"spawn2" "31#1"
+"targetname" "gamestart"
+"classname" "multi_manager"
+}
+
+DELETE_ENT_BY_BRUSHMODEL=*68
+DELETE_ENT_BY_BRUSHMODEL=*69
+DELETE_ENT_BY_CLASSNAME=trigger_setcvar
+DELETE_ENT_BY_TARGETNAME=xpmod_active
+DELETE_ENT_BY_TARGETNAME=spawn3
+[/GLOBAL]
+
+[BEGINNER]
+DELETE_ENT_BY_BRUSHMODEL=*66
+[/BEGINNER]
+
+[NORMAL]
+DELETE_ENT_BY_BRUSHMODEL=*66
+[/NORMAL]
+
+[HARD]
+DELETE_ENT_BY_BRUSHMODEL=*66
+[/HARD]
+
+[SUICIDE]
+DELETE_ENT_BY_BRUSHMODEL=*67
+[/SUICIDE]
+
+[HELL]
+DELETE_ENT_BY_BRUSHMODEL=*67
+[/HELL]

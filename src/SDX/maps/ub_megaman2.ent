@@ -1,0 +1,203 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "2334 512 490"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "80 -240 650"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "770 -282 430"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-1892 808 826"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-2215 1944 1187"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-2978 2368 970"
+"classname" "ammo_9mmbox"
+}
+
+ADD_ENTITY
+{
+"origin" "-2978 2368 970"
+"classname" "ammo_buckshot"
+}
+
+ADD_ENTITY
+{
+"origin" "-2978 2368 970"
+"classname" "ammo_buckshot"
+}
+
+ADD_ENTITY
+{
+"origin" "-2978 2368 970"
+"-m_fSpawnEffect" "1"
+"m_iszCrtEntChildClass" "point_checkpoint"
+"targetname" "boss_add_cp"
+"classname" "trigger_createentity"
+}
+
+ADD_ENTITY
+{
+"origin" "-2976 3064 1112"
+"target" "boss_cp_counter"
+"delay" "28"
+"triggerstate" "1"
+"targetname" "mm_boss2"
+"classname" "trigger_delay"
+}
+
+ADD_ENTITY
+{
+"origin" "-2976 3064 1112"
+"target" "boss_cp_counter"
+"delay" "23"
+"triggerstate" "1"
+"targetname" "mm_boss3"
+"classname" "trigger_delay"
+}
+
+ADD_ENTITY
+{
+"origin" "-2976 3064 1112"
+"target" "boss_cp_counter"
+"delay" "28"
+"triggerstate" "1"
+"targetname" "mm_boss4"
+"classname" "trigger_delay"
+}
+
+ADD_ENTITY
+{
+"origin" "-2976 3064 1112"
+"target" "boss_cp_counter"
+"delay" "23"
+"triggerstate" "1"
+"targetname" "mm_boss5"
+"classname" "trigger_delay"
+}
+
+ADD_ENTITY
+{
+"origin" "-2976 3064 1112"
+"target" "boss_cp_counter"
+"delay" "28"
+"triggerstate" "1"
+"targetname" "mm_boss6"
+"classname" "trigger_delay"
+}
+
+EDIT_ENTITY=squadmaker
+{
+"monstercount" "1"
+}
+[/GLOBAL]
+
+[BEGINNER]
+EDIT_ENTITY=*266
+{
+"health" "5000"
+}
+
+ADD_ENTITY
+{
+"origin" "-2976 3064 1112"
+"target" "boss_add_cp"
+"frags" "0"
+"health" "1"
+"targetname" "boss_cp_counter"
+"spawnflags" "2"
+"classname" "game_counter"
+}
+[/BEGINNER]
+
+[NORMAL]
+EDIT_ENTITY=*266
+{
+"health" "6000"
+}
+
+ADD_ENTITY
+{
+"origin" "-2976 3064 1112"
+"target" "boss_add_cp"
+"frags" "0"
+"health" "2"
+"targetname" "boss_cp_counter"
+"spawnflags" "2"
+"classname" "game_counter"
+}
+[/NORMAL]
+
+[HARD]
+EDIT_ENTITY=*266
+{
+"health" "7000"
+}
+
+ADD_ENTITY
+{
+"origin" "-2976 3064 1112"
+"target" "boss_add_cp"
+"frags" "0"
+"health" "3"
+"targetname" "boss_cp_counter"
+"spawnflags" "2"
+"classname" "game_counter"
+}
+[/HARD]
+
+[SUICIDE]
+EDIT_ENTITY=*266
+{
+"health" "9000"
+}
+
+ADD_ENTITY
+{
+"origin" "-2976 3064 1112"
+"target" "boss_add_cp"
+"frags" "0"
+"health" "4"
+"targetname" "boss_cp_counter"
+"spawnflags" "2"
+"classname" "game_counter"
+}
+[/SUICIDE]
+
+[HELL]
+EDIT_ENTITY=*266
+{
+"health" "9999"
+}
+
+ADD_ENTITY
+{
+"origin" "-2976 3064 1112"
+"target" "boss_add_cp"
+"frags" "0"
+"health" "5"
+"targetname" "boss_cp_counter"
+"spawnflags" "2"
+"classname" "game_counter"
+}
+[/HELL]

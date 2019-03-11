@@ -1,0 +1,48 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "-1567 -75 1239"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-2046 1211 960"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-1567 1317 814"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "541 1509 1465"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-651 -33 2050"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "1759 -1083 1150"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "1500 -1747 1622"
+"classname" "point_checkpoint"
+}
+
+EDIT_ENTITY=squadmaker
+{
+"monstercount" "1"
+}
+[/GLOBAL]

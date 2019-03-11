@@ -1,0 +1,55 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "-3114 -482 140"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-1074 -32 590"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-1908 -128 210"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-2800 -18 -300"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-512 -446 0"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "1526 434 -970"
+"classname" "point_checkpoint"
+}
+
+EDIT_ENTITY=monstermaker
+{
+"monstercount" "1"
+}
+
+EDIT_ENTITY=squadmaker
+{
+"monstercount" "1"
+}
+
+EDIT_ENTITY=item_battery
+{
+"m_flCustomRespawnTime" "65535"
+"spawnflags" "1024"
+}
+
+DELETE_ENT_BY_BRUSHMODEL=*301
+[/GLOBAL]

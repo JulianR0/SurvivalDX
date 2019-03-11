@@ -1,0 +1,30 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "-2832 2080 260"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-792 814 -130"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "306 -1866 430"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "2560 1900 890"
+"classname" "point_checkpoint"
+}
+
+EDIT_ENTITY=squadmaker
+{
+"monstercount" "1"
+}
+[/GLOBAL]

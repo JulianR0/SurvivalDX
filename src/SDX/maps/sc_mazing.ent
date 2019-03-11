@@ -1,0 +1,43 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "140 2111 340"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-1012 -203 88"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "1360 -980 74"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "125 169 614"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-1987 -2039 85"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-823 -585 97"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "150 2697 300"
+"classname" "point_checkpoint"
+}
+[/GLOBAL]
