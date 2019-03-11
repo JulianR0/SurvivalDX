@@ -19,7 +19,7 @@ Toda la forma en que este survival modifica el juego hizo que el proyecto Surviv
 
 PEROOO... Por lastima, este plugin tiene nuevamente el problema del contenido mixto, de usar tanto AngelScript como AMX Mod X para que funcione... Do'h!
 ## Porque mezclar tanto AngelScript como AMX Mod X para este sistema?
-AngelScript carece de ciertas utilidades especificas que solo el AMX Mod X tiene. Con el paso del tiempo AngelScript fue mejorando sus capacidades, pero decidi dejar algunas funciones en AMXX para evitar inconvenientes. No obstante, el AngelScript aun esta muy lejos de reemplazarlo al AMXX por completo. El mas primordial ejemplo es la posibilidad de hookear cualquier funcion de cualquier entidad, algo completamente inexistente en AngelScript. Estos hooks son de suma importancia para el plugin principal, ya que son lo que le da **VIDA** a la utilidad de los Perks, en adicion a la **UNICA MANERA** de poder subir de nivel los Perks por estas funciones especificas que el AngelScript no tiene. Aguante el modulo HAM!
+AngelScript carece de ciertas utilidades especificas que solo el AMX Mod X tiene. Con el paso del tiempo AngelScript fue mejorando sus capacidades, pero decidi dejar algunas funciones en AMXX para evitar inconvenientes. No obstante, el AngelScript aun esta muy lejos de reemplazar al AMXX por completo. El mas primordial ejemplo es la posibilidad de hookear cualquier funcion de cualquier entidad, algo completamente inexistente en AngelScript. Estos hooks son de suma importancia para el plugin principal, ya que son lo que le da **VIDA** a la utilidad de los Perks, en adicion a la **UNICA MANERA** de poder subir de nivel los Perks por estas funciones especificas que el AngelScript no tiene. Aguante el modulo HAM!
 
 Esto lleva a un segundo problema, como puedes ver, estoy utilizando el modulo *HamSandwich* del AMXX para hacer estos hooks, las cuales requieren que sus funciones esten especificados y actualizados en el archivo de configuracion **hamdata.ini**. El unico problema con esto es que dicho archivo debia actualizarse constantemente, ya que cada actualizacion del Sven Co-op que los desarrolladores hagan, implicaba que alguno de esos numeros se cambiasen. Intentar detectar esto de manera manual por AngelScript es... No. Como diablos quieres que lo haga? Como detecto cuanto daño recibe CADA monstruo que el mapa tiene? Aun si existiesen metodos serian asquerosamente ineficientes! No quiero perjudicar el rendimiento del servidor solo por un detalle!
 
@@ -63,7 +63,7 @@ Dare enfasis a las palabras **consola del servidor**, si estas usando un dedicad
 Si la compilacion falla, los errores seran mostrados en la consola o bien en los logs del servidor, ubicado en **svencoop/logs/Angelscript** para su facil acceso.
 
 **_IMPORTANTE_**
-El proyecto no guardara ningun dato inicialmente hasta que su carpeta de almacenamiento este creada y haya acceso de lectura/escritura en ella. Ve a la carpeta **svencoop/scripts/plugins/store** y crea los siguiente directorios cuyo proposito es el siguiente:
+El proyecto no guardara ningun dato inicialmente hasta que su carpeta de almacenamiento este creada y haya acceso de lectura/escritura en ella. Ve a la carpeta **svencoop/scripts/plugins/store** y crea el siguiente directorio cuyo proposito es el siguiente:
 
 - **sdx_plrdata**: Niveles, Perks, y otros datos de los jugadores. De suma importancia para el plugin principal.
 
