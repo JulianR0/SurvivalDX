@@ -1,0 +1,26 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "2449 -2688 250"
+"m_vecAltPosition" "771 43 -348"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "-2466 -2628 722"
+"m_vecAltPosition" "771 43 -348"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "-3328 2864 518"
+"m_vecAltPosition" "771 43 -348"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "-204 2871 993"
+"m_vecAltPosition" "771 43 -348"
+"classname" "point_checkpoint"
+}
+[/GLOBAL]

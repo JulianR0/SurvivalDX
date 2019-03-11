@@ -1,0 +1,52 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "565 -1700 1477"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-832 -134 2472"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-3302 394 2004"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-3122 2046 1154"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-1443 1812 595"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "1371 1329 1380"
+"classname" "point_checkpoint"
+}
+
+EDIT_ENTITY=monstermaker
+{
+"m_imaxlivechildren" "1"
+}
+
+EDIT_ENTITY=squadmaker
+{
+"m_imaxlivechildren" "1"
+}
+
+EDIT_ENTITY=monster_ichthyosaur
+{
+"health" "200"
+}
+[/GLOBAL]

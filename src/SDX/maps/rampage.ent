@@ -1,0 +1,25 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "-650 -269 288"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "56 51 179"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "2195 -6 -390"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-1103 -415 609"
+"classname" "point_checkpoint"
+}
+[/GLOBAL]

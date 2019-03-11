@@ -1,0 +1,26 @@
+[GLOBAL]
+EDIT_ENTITY=squadmaker
+{
+"monstercount" "4"
+}
+
+ADD_ENTITY
+{
+"origin" "-2316 -140 -340"
+"classname" "point_checkpoint"
+}
+[/GLOBAL]
+
+[SUICIDE]
+EDIT_ENTITY=squadmaker
+{
+"monstercount" "3"
+}
+[/SUICIDE]
+
+[HELL]
+EDIT_ENTITY=squadmaker
+{
+"monstercount" "3"
+}
+[/HELL]

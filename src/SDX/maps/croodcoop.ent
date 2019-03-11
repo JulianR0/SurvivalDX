@@ -1,0 +1,78 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "2200 90 420"
+"spawnflags" "2"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "2200 3200 -302"
+"spawnflags" "2"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "2000 1648 -108"
+"spawnflags" "2"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-706 1808 -204"
+"spawnflags" "2"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "226 2000 -204"
+"spawnflags" "2"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "2024 3280 -425"
+"m_iszCVarToChange" "sk_barnacle_bite"
+"message" "77"
+"targetname" "dross_kill"
+"classname" "trigger_setcvar"
+}
+[/GLOBAL]
+
+[BEGINNER]
+DELETE_ENT_BY_TARGETNAME=mg_start
+
+EDIT_ENTITY=mystery_gift_sv2
+{
+"health" "999999999"
+"takedamage" "0"
+"spawnflags" "0"
+}
+[/BEGINNER]
+
+[NORMAL]
+DELETE_ENT_BY_TARGETNAME=mg_start
+
+EDIT_ENTITY=mystery_gift_sv2
+{
+"health" "999999999"
+"takedamage" "0"
+"spawnflags" "0"
+}
+[/NORMAL]
+
+[HARD]
+DELETE_ENT_BY_TARGETNAME=mg_start
+
+EDIT_ENTITY=mystery_gift_sv2
+{
+"health" "999999999"
+"takedamage" "0"
+"spawnflags" "0"
+}
+[/HARD]

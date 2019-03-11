@@ -1,0 +1,55 @@
+NO_BEGINNER_WARN=1
+
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "-260 -1710 70"
+"classname" "point_checkpoint"
+}
+[/GLOBAL]
+
+[BEGINNER]
+ADD_ENTITY
+{
+"origin" "0 0 0"
+"spawnflags" "7"
+"dmg" "90000"
+"delay" "30"
+"targetclass" "player"
+"classname" "trigger_hurt_remote"
+}
+ADD_ENTITY
+{
+"origin" "0 0 1"
+"message" "Este mapa esta prohibido en beginner.\n\nElijan otra dificultad!!!"
+"targetname" "game_playerdie"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "8"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"y" "-1"
+"x" "-1"
+"spawnflags" "3"
+"classname" "game_text"
+}
+ADD_ENTITY
+{
+"origin" "0 0 1"
+"message" "Este mapa esta prohibido en beginner.\n\nElijan otra dificultad!!!"
+"targetname" "game_playerspawn"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "8"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"y" "-1"
+"x" "-1"
+"spawnflags" "3"
+"classname" "game_text"
+}
+[/BEGINNER]

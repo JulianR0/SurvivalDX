@@ -1,0 +1,52 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "372 2700 -900"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "3410 -2176 1260"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "2686 -3036 1270"
+"-m_fSpawnEffect" "1"
+"m_iszCrtEntChildClass" "point_checkpoint"
+"targetname" "wave4"
+"classname" "trigger_createentity"
+}
+
+ADD_ENTITY
+{
+"origin" "2686 -1318 1270"
+"-m_fSpawnEffect" "1"
+"m_iszCrtEntChildClass" "point_checkpoint"
+"targetname" "wave4"
+"classname" "trigger_createentity"
+}
+
+ADD_ENTITY
+{
+"origin" "980 -1318 1270"
+"-m_fSpawnEffect" "1"
+"m_iszCrtEntChildClass" "point_checkpoint"
+"targetname" "wave4"
+"classname" "trigger_createentity"
+}
+
+ADD_ENTITY
+{
+"origin" "980 -3036 1270"
+"-m_fSpawnEffect" "1"
+"m_iszCrtEntChildClass" "point_checkpoint"
+"targetname" "wave4"
+"classname" "trigger_createentity"
+}
+
+DELETE_ENT_BY_CLASSNAME=trigger_setcvar
+DELETE_ENT_BY_TARGETNAME=xpmod_active
+[/GLOBAL]

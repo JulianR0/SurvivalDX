@@ -1,0 +1,587 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "1774 2052 280"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "244 2515 580"
+"classname" "point_checkpoint"
+}
+[/GLOBAL]
+
+[BEGINNER]
+ADD_ENTITY
+{
+"origin" "-1800 2800 580"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "3418 2350 430"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3200 413"
+"m_imaxlivechildren" "32"
+"monstercount" "32"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "item_healthkit"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3150 413"
+"m_imaxlivechildren" "32"
+"monstercount" "32"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "item_battery"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3050 413"
+"m_imaxlivechildren" "24"
+"monstercount" "24"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_9mmbox"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3000 413"
+"m_imaxlivechildren" "24"
+"monstercount" "24"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_buckshot"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2950 413"
+"m_imaxlivechildren" "24"
+"monstercount" "24"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_crossbow"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2900 413"
+"m_imaxlivechildren" "24"
+"monstercount" "24"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_762"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2850 413"
+"m_imaxlivechildren" "24"
+"monstercount" "24"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_357"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2750 413"
+"m_imaxlivechildren" "16"
+"monstercount" "16"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_rpgclip"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2700 413"
+"m_imaxlivechildren" "16"
+"monstercount" "16"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "weapon_tripmine"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+[/BEGINNER]
+
+[NORMAL]
+ADD_ENTITY
+{
+"origin" "-1800 2800 580"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3200 413"
+"m_imaxlivechildren" "20"
+"monstercount" "20"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "item_healthkit"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3150 413"
+"m_imaxlivechildren" "20"
+"monstercount" "20"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "item_battery"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3050 413"
+"m_imaxlivechildren" "16"
+"monstercount" "16"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_9mmbox"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3000 413"
+"m_imaxlivechildren" "16"
+"monstercount" "16"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_buckshot"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2950 413"
+"m_imaxlivechildren" "16"
+"monstercount" "16"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_crossbow"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2900 413"
+"m_imaxlivechildren" "16"
+"monstercount" "16"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_762"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2850 413"
+"m_imaxlivechildren" "16"
+"monstercount" "16"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_357"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2750 413"
+"m_imaxlivechildren" "10"
+"monstercount" "10"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_rpgclip"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2700 413"
+"m_imaxlivechildren" "10"
+"monstercount" "10"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "weapon_tripmine"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+[/NORMAL]
+
+[HARD]
+ADD_ENTITY
+{
+"origin" "-1800 2800 580"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3200 413"
+"m_imaxlivechildren" "16"
+"monstercount" "16"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "item_healthkit"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3150 413"
+"m_imaxlivechildren" "16"
+"monstercount" "16"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "item_battery"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3050 413"
+"m_imaxlivechildren" "12"
+"monstercount" "12"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_9mmbox"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3000 413"
+"m_imaxlivechildren" "12"
+"monstercount" "12"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_buckshot"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2950 413"
+"m_imaxlivechildren" "12"
+"monstercount" "12"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_crossbow"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2900 413"
+"m_imaxlivechildren" "12"
+"monstercount" "12"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_762"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2850 413"
+"m_imaxlivechildren" "12"
+"monstercount" "12"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_357"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2750 413"
+"m_imaxlivechildren" "9"
+"monstercount" "9"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_rpgclip"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2700 413"
+"m_imaxlivechildren" "9"
+"monstercount" "9"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "weapon_tripmine"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+[/HARD]
+
+[SUICIDE]
+ADD_ENTITY
+{
+"origin" "3440 3200 413"
+"m_imaxlivechildren" "10"
+"monstercount" "10"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "item_healthkit"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3150 413"
+"m_imaxlivechildren" "10"
+"monstercount" "10"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "item_battery"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3050 413"
+"m_imaxlivechildren" "8"
+"monstercount" "8"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_9mmbox"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3000 413"
+"m_imaxlivechildren" "8"
+"monstercount" "8"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_buckshot"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2950 413"
+"m_imaxlivechildren" "8"
+"monstercount" "8"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_crossbow"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2900 413"
+"m_imaxlivechildren" "8"
+"monstercount" "8"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_762"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2850 413"
+"m_imaxlivechildren" "8"
+"monstercount" "8"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_357"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2750 413"
+"m_imaxlivechildren" "6"
+"monstercount" "6"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_rpgclip"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2700 413"
+"m_imaxlivechildren" "6"
+"monstercount" "6"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "weapon_tripmine"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+[/SUICIDE]
+
+[HELL]
+ADD_ENTITY
+{
+"origin" "3440 3200 413"
+"m_imaxlivechildren" "8"
+"monstercount" "8"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "item_healthkit"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3150 413"
+"m_imaxlivechildren" "8"
+"monstercount" "8"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "item_battery"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3050 413"
+"m_imaxlivechildren" "6"
+"monstercount" "6"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_9mmbox"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 3000 413"
+"m_imaxlivechildren" "6"
+"monstercount" "6"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_buckshot"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2950 413"
+"m_imaxlivechildren" "6"
+"monstercount" "6"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_crossbow"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2900 413"
+"m_imaxlivechildren" "6"
+"monstercount" "6"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_762"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2850 413"
+"m_imaxlivechildren" "6"
+"monstercount" "6"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_357"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2750 413"
+"m_imaxlivechildren" "5"
+"monstercount" "5"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "ammo_rpgclip"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+
+ADD_ENTITY
+{
+"origin" "3440 2700 413"
+"m_imaxlivechildren" "5"
+"monstercount" "5"
+"delay" "0.01"
+"spawn_mode" "2"
+"monstertype" "weapon_tripmine"
+"spawnflags" "1025"
+"classname" "squadmaker"
+}
+[/HELL]

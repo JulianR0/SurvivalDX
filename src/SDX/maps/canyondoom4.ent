@@ -1,0 +1,104 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "-1930 -3700 420"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "1780 -3700 420"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "670 -1150 420"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-386 2 404"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-514 2114 148"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-10 10 40"
+"classname" "point_checkpoint"
+}
+[/GLOBAL]
+
+[BEGINNER]
+EDIT_ENTITY=mspawn
+{
+"monstercount" "1"
+}
+
+DELETE_ENT_BY_TARGETNAME=junglebeast_spawn1
+DELETE_ENT_BY_TARGETNAME=junglebeast_spawn2
+DELETE_ENT_BY_TARGETNAME=jb1
+DELETE_ENT_BY_TARGETNAME=jb2
+[/BEGINNER]
+
+[HARD]
+EDIT_ENTITY=mspawn
+{
+"monstercount" "3"
+}
+[/HARD]
+
+[SUICIDE]
+EDIT_ENTITY=mspawn
+{
+"monstercount" "4"
+}
+
+EDIT_ENTITY=junglebeast_spawn1
+{
+"monstercount" "5"
+"delay" "1"
+"health" "1000"
+}
+
+EDIT_ENTITY=jb1
+{
+"health" "1000"
+}
+
+EDIT_ENTITY=junglebeast_spawn2
+{
+"monstercount" "5"
+"delay" "1"
+"health" "1000"
+}
+
+EDIT_ENTITY=jb2
+{
+"health" "1000"
+}
+[/SUICIDE]
+
+[HELL]
+EDIT_ENTITY=mspawn
+{
+"monstercount" "5"
+}
+
+EDIT_ENTITY=junglebeast_spawn1
+{
+"monstercount" "6"
+}
+
+EDIT_ENTITY=junglebeast_spawn2
+{
+"monstercount" "6"
+}
+[/HELL]

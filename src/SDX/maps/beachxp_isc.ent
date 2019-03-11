@@ -1,0 +1,28 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "262 308 300"
+"-m_fSpawnEffect" "1"
+"m_iszCrtEntChildClass" "point_checkpoint"
+"m_vecAltPosition" "2940 -3210 40"
+"targetname" "bch_gun1_mm"
+"classname" "trigger_createentity"
+}
+
+ADD_ENTITY
+{
+"origin" "3252 2756 100"
+"-m_fSpawnEffect" "1"
+"m_iszCrtEntChildClass" "point_checkpoint"
+"m_vecAltPosition" "2940 -3210 40"
+"targetname" "bch_gun2_mm"
+"classname" "trigger_createentity"
+}
+
+ADD_ENTITY
+{
+"origin" "40 1844 550"
+"m_vecAltPosition" "2940 -3210 40"
+"classname" "point_checkpoint"
+}
+[/GLOBAL]

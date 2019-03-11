@@ -1,0 +1,15 @@
+[HELL]
+ADD_ENTITY
+{
+"origin" "447 -1339 -1216"
+"classname" "point_checkpoint"
+}
+[/HELL]
+
+[SUICIDE]
+ADD_ENTITY
+{
+"origin" "447 -1339 -1216"
+"classname" "point_checkpoint"
+}
+[/SUICIDE]

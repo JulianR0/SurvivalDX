@@ -1,0 +1,52 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "1284 -158 183"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "1932 -800 -206"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-115 302 290"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-637 -932 290"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-2211 763 -89"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-2634 2903 -298"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "2024 3280 -425"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "2024 3280 -425"
+"m_iszCVarToChange" "sk_barnacle_bite"
+"message" "555"
+"targetname" "door1"
+"classname" "trigger_setcvar"
+}
+[/GLOBAL]

@@ -1,0 +1,56 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "1492 1234 -120"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-1990 3170 -120"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-1536 -1185 -120"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-2084 -2524 -410"
+"angles" "0 90 0"
+"TriggerCondition" "4"
+"TriggerTarget" "u_r_an_idiot"
+"health" "999"
+"displayname" "Te pusiste commando solo para ver mi nombre?\nQUE MIRA GIL. VO' QUERES FASHION EXPLOSION?"
+"spawnflags" "18"
+"classname" "monster_human_grunt"
+}
+
+ADD_ENTITY
+{
+"origin" "-2084 -2368 -340"
+"targetname" "u_r_an_idiot"
+"iMagnitude" "777"
+"classname" "env_explosion"
+}
+
+ADD_ENTITY
+{
+"origin" "-2084 -2368 -340"
+"message" "FORROS PELOTUDOS HIJOS DE PUTA EH LA RE PUTA MADRE QUE TE PARIO\nPERO QUE CARA DE PELOTUDO\nMORIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIR"
+"targetname" "u_r_an_idiot"
+"channel" "1"
+"holdtime" "5"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"y" "-1"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+[/GLOBAL]

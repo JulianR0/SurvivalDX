@@ -1,0 +1,30 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "912 886 150"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "1204 -487 120"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "516 -1755 144"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-466 -3376 180"
+"classname" "point_checkpoint"
+}
+
+DELETE_ENT_BY_BRUSHMODEL=*329
+DELETE_ENT_BY_BRUSHMODEL=*331
+DELETE_ENT_BY_BRUSHMODEL=*332
+DELETE_ENT_BY_BRUSHMODEL=*334
+[/GLOBAL]

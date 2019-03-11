@@ -1,0 +1,52 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "-3527 2531 1267"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-2078 1371 2357"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-600 1553 2134"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-529 2611 2107"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "3026 1471 1698"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "428 -2091 2081"
+"classname" "point_checkpoint"
+}
+
+EDIT_ENTITY=monstermaker
+{
+"m_imaxlivechildren" "1"
+}
+
+EDIT_ENTITY=squadmaker
+{
+"m_imaxlivechildren" "1"
+}
+
+EDIT_ENTITY=plane_break
+{
+"explodemagnitude" "900"
+}
+[/GLOBAL]

@@ -1,0 +1,63 @@
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "-2352 -206 170"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-2352 -206 170"
+"classname" "weapon_minigun"
+"dmg" "8"
+"m_flCustomRespawnTime" "0.1"
+}
+
+ADD_ENTITY
+{
+"origin" "-2876 -1476 170"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-2876 -1476 170"
+"classname" "weapon_minigun"
+"dmg" "8"
+"m_flCustomRespawnTime" "0.1"
+}
+
+ADD_ENTITY
+{
+"origin" "-1220 -2562 120"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-1220 -2562 120"
+"classname" "weapon_minigun"
+"dmg" "8"
+"m_flCustomRespawnTime" "0.1"
+}
+
+ADD_ENTITY
+{
+"origin" "-726 -2594 -60"
+"classname" "point_checkpoint"
+}
+
+ADD_ENTITY
+{
+"origin" "-560 -2594 -60"
+"classname" "point_checkpoint"
+}
+[/GLOBAL]
+
+[SUICIDE]
+DELETE_ENT_BY_CLASSNAME=item_inventory
+[/SUICIDE]
+
+[HELL]
+DELETE_ENT_BY_CLASSNAME=item_inventory
+[/HELL]

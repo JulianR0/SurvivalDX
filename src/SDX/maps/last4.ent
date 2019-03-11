@@ -1,0 +1,6 @@
+[GLOBAL]
+EDIT_ENTITY=monster_blkop_osprey
+{
+"health" "9000"
+}
+[/GLOBAL]

@@ -1,0 +1,795 @@
+NO_BEGINNER_WARN=1
+PRECACHE_SOUND=drill/dr2_add04.wav
+PRECACHE_SOUND=snk_ema/music/kfm-kews.ogg
+
+[GLOBAL]
+ADD_ENTITY
+{
+"origin" "-391 869 161"
+"noise1" "drill/dr2_add04.wav"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "638 -3050 59"
+"noise1" "drill/dr2_add04.wav"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "-1629 703 106"
+"noise1" "drill/dr2_add04.wav"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "391 3151 108"
+"noise1" "drill/dr2_add04.wav"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "-2399 -3051 -139"
+"noise1" "drill/dr2_add04.wav"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "634 -1921 351"
+"noise1" "drill/dr2_add04.wav"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "634 -1921 351"
+"noise1" "drill/dr2_add04.wav"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "634 -1921 351"
+"noise1" "drill/dr2_add04.wav"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "2233 -2307 15"
+"noise1" "drill/dr2_add04.wav"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "3140 134 -409"
+"noise1" "drill/dr2_add04.wav"
+"classname" "point_checkpoint"
+}
+[/GLOBAL]
+
+[BEGINNER]
+ADD_ENTITY
+{
+"origin" "553 -381 65"
+"health" "9999"
+"monstercount" "-1"
+"displayname" "No action = No gain | No pussys allowed!"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "32"
+"spawnflags" "33"
+"delay" "0.5"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+[/BEGINNER]
+
+[NORMAL]
+DELETE_ENT_BY_BRUSHMODEL=*88
+[/NORMAL]
+
+[HARD]
+DELETE_ENT_BY_BRUSHMODEL=*88
+[/HARD]
+
+[SUICIDE]
+ADD_ENTITY
+{
+"origin" "350 -2763 435"
+"health" "225"
+"monstercount" "2"
+"displayname" "Enemy"
+"new_model" "models/snk_ema/ld/sse/hwgrunte.mdl"
+"monstertype" "monster_hwgrunt"
+"dmg" "1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "45"
+"classify" "1"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "2230 -3000 182"
+"health" "150"
+"monstercount" "2"
+"new_model" "models/cards/ori/massn.mdl"
+"displayname" "Enemy"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "30"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "2000 -3000 182"
+"health" "150"
+"monstercount" "2"
+"displayname" "Enemy"
+"new_model" "models/cards/ori/massn.mdl"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "30"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "700 1473 437"
+"health" "200"
+"monstercount" "2"
+"displayname" "Enemy"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/snk_ema/ld/sse/hwgrunte.mdl"
+"monstertype" "monster_hwgrunt"
+"dmg" "1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "45"
+"angles" "2 180 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-3033 -164 457"
+"health" "200"
+"monstercount" "2"
+"displayname" "Enemy"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/snk_ema/ld/sse/hwgrunte.mdl"
+"monstertype" "monster_hwgrunt"
+"dmg" "1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "30"
+"angles" "15 -35 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-2651 -3003 440"
+"health" "150"
+"monstercount" "2"
+"new_model" "models/cards/ori/massn.mdl"
+"displayname" "Enemy"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "30"
+"angles" "15 -35 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-2651 -3303 440"
+"health" "150"
+"monstercount" "2"
+"new_model" "models/cards/ori/massn.mdl"
+"displayname" "Enemy"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "30"
+"angles" "15 -35 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-1221 -3645 440"
+"health" "150"
+"monstercount" "2"
+"displayname" "Enemy"
+"new_model" "models/cards/ori/massn.mdl"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "30"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+DELETE_ENT_BY_BRUSHMODEL=*88
+[/SUICIDE]
+
+[HELL]
+ADD_ENTITY
+{
+"origin" "447 -1339 -1216"
+"classname" "point_checkpoint"
+}
+ADD_ENTITY
+{
+"origin" "350 -2763 435"
+"health" "225"
+"monstercount" "2"
+"displayname" "Enemy"
+"new_model" "models/snk_ema/ld/sse/hwgrunte.mdl"
+"monstertype" "monster_hwgrunt"
+"dmg" "1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "45"
+"classify" "1"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "2230 -3000 182"
+"health" "150"
+"monstercount" "3"
+"new_model" "models/cards/ori/massn.mdl"
+"displayname" "Enemy"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "30"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "2000 -3000 182"
+"health" "150"
+"monstercount" "3"
+"displayname" "Enemy"
+"new_model" "models/cards/ori/massn.mdl"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "30"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "700 1473 437"
+"health" "200"
+"monstercount" "2"
+"displayname" "Enemy"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/snk_ema/ld/sse/hwgrunte.mdl"
+"monstertype" "monster_hwgrunt"
+"dmg" "1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "45"
+"angles" "2 180 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-3033 -164 457"
+"health" "200"
+"monstercount" "2"
+"displayname" "Enemy"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/snk_ema/ld/sse/hwgrunte.mdl"
+"monstertype" "monster_hwgrunt"
+"dmg" "1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "30"
+"angles" "15 -35 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-2651 -3003 440"
+"health" "150"
+"monstercount" "3"
+"displayname" "Enemy"
+"new_model" "models/cards/ori/massn.mdl"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "30"
+"angles" "15 -35 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-2651 -3303 440"
+"health" "150"
+"monstercount" "3"
+"displayname" "Enemy"
+"new_model" "models/cards/ori/massn.mdl"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "30"
+"angles" "15 -35 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-1221 -3645 440"
+"health" "150"
+"monstercount" "3"
+"displayname" "Enemy"
+"new_model" "models/cards/ori/massn.mdl"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "30"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-2337 54 186"
+"health" "150"
+"monstercount" "3"
+"displayname" "Enemy"
+"new_model" "models/cards/ori/massn.mdl"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "30"
+"angles" "0 -90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-3717 -1998 170"
+"health" "150"
+"monstercount" "3"
+"displayname" "Enemy"
+"new_model" "models/cards/ori/massn.mdl"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "15"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-3717 -2098 170"
+"health" "150"
+"monstercount" "3"
+"displayname" "Enemy"
+"new_model" "models/cards/ori/massn.mdl"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "15"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-3717 -2198 170"
+"health" "150"
+"monstercount" "3"
+"displayname" "Enemy"
+"new_model" "models/cards/ori/massn.mdl"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "15"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-3717 -2298 170"
+"health" "150"
+"monstercount" "3"
+"displayname" "Enemy"
+"new_model" "models/cards/ori/massn.mdl"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "15"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "2561 -170 432"
+"health" "150"
+"monstercount" "3"
+"displayname" "Enemy"
+"new_model" "models/cards/ori/massn.mdl"
+"weapons" "10"
+"classify" "1"
+"monstertype" "monster_male_assassin"
+"dmg" "1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "15"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "683 3110 431"
+"health" "75"
+"monstercount" "2"
+"displayname" "Enemy"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/snk_ema/ld/sse/hwgrunte.mdl"
+"monstertype" "monster_hwgrunt"
+"dmg" "1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "30"
+"angles" "15 -115 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-2347 -3636 222"
+"health" "475"
+"monstercount" "3"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "90"
+"angles" "15 -35 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-2147 -3636 222"
+"health" "475"
+"monstercount" "3"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "90"
+"angles" "15 90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-3628 -573 204"
+"health" "475"
+"monstercount" "3"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "10"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-3728 -573 204"
+"health" "475"
+"monstercount" "3"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "10"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-2627 1936 444"
+"health" "475"
+"monstercount" "2"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "20"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-2083 2684 335"
+"health" "475"
+"monstercount" "2"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "20"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-93 2951 353"
+"health" "475"
+"monstercount" "2"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "3"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-893 1951 365"
+"health" "475"
+"monstercount" "1"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "20"
+"angles" "0 -90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-793 1951 365"
+"health" "475"
+"monstercount" "1"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "20"
+"angles" "0 -90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-400 -1808 464"
+"health" "475"
+"monstercount" "1"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "5"
+"angles" "0 -90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-300 -1808 464"
+"health" "475"
+"monstercount" "1"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "1"
+"angles" "0 -90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-200 -1808 464"
+"health" "475"
+"monstercount" "1"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "1"
+"spawnflags" "33"
+"delay" "1"
+"angles" "0 -90 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "3091 463 -114"
+"health" "475"
+"monstercount" "2"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "10"
+"angles" "0 180 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "2450 -725 -185"
+"health" "475"
+"monstercount" "3"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "4"
+"angles" "0 -180 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "2485 -1161 -451"
+"health" "475"
+"monstercount" "3"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "1"
+"angles" "0 -180 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "2260 -2134 -185"
+"health" "475"
+"monstercount" "3"
+"displayname" "EmA R's Execution Squad"
+"weapons" "10"
+"classify" "1"
+"new_model" "models/crashsite/garg_desert.mdl"
+"monstertype" "monster_babygarg"
+"dmg" "1"
+"bloodcolor" "-1"
+"m_imaxlivechildren" "2"
+"spawnflags" "33"
+"delay" "1"
+"angles" "0 -180 0"
+"classname" "squadmaker"
+}
+ADD_ENTITY
+{
+"origin" "-3064 -1667 -335"
+"delay" "15"
+"m_imaxlivechildren" "1"
+"monstercount" "1"
+"monstertype" "monster_handgrenade"
+"spawnflags" "1"
+"classname" "squadmaker"
+}
+[/HELL]
+ 
