@@ -3,17 +3,9 @@ Plugin survival utilizado en los servidores de Imperium Sven Co-op.
 ## Que es esto?
 No voy a mentirles. Siempre estube en contra de un servidor Survival por la malisima calidad que estas han tenido. Cansado de que el ciclo se repitiera he decidido romper la "meta" y creado MI estilo Survival. Lo que termino con resultados mucho mas positivos de lo que esperaba. Le he dedicado solo un poco de trabajo a este plugin, ya que en si es bastante sencillo.
 
-Aunque admito que mi imaginacion siempre me hace planear metas completamente inalcanzables. Queria agregar un "Story Mode" al servidor y para esto necesitaria de un agregado extra, los "Items". Objetos, si asi lo deseas llamar. Hay remanentes de codigo de esta funcion y lo podras examinar, y se encuentra completamente funcional. Bueno, CASI funcional. Falta un poco de trabajo para poder finalizarse pero en si es utilizable. Debido a eso, solo un comando secreto de admin permite otorgar objetos.
+De donde saque la idea? Bien, la idea del SurvivalDX lo tome por inspiracion y homenaje al clan de Killing Floor 1: **Last Bullet**. Su servidor eleva la dificultad normal del juego a niveles muy altos, lo que obliga a coordinarse y tener una destreza y habilidad la cual me agrado mucho mas que jugar normalmente.
 
-De donde saque la idea? Bien, la idea del SurvivalDX lo tome por inspiracion y homenaje al clan de Killing Floor 1: **Last Bullet**. Su servidor eleva la dificultad normal del juego a niveles que nadie espera, lo que obliga a coordinarse y tener una destreza y habilidad de la cual... me enamore... **EXTRAÑABA JUGAR ASI CARAJO**.
-
-Fue precisamente de ahi que saque la idea del *Mirror Friendly Fire*, aunque las dificultades y los "Perks" que se ven en el servidor son claramente un homenaje al Killing Floor 1 original. Lo unico que lamento fue no poder implementar el Perk "Firebug" del KF1, ya que esto era simplemente imposible. Bah, en realidad **ERA POSIBLE** pero era un excesivo trabajo, el codigo que demandaria hacer funcionar el Firebug seria mayor a todo el plugin en si, eso... no es realmente balanceado... Ademas, tendria otro problema, que armas dejarle a dicho Perk? Sven Co-op no tiene un amplio arsenal de armas a diferencia del KF1.
-
-En cambio a los objetos y su objetivo a largo plazo: Bueno, si lees los nombres de los items notaras que vienen de...
-
-...Pokémon.
-
-Si... mejor no preguntes.
+Fue precisamente de ahi que saque la idea del *Mirror Friendly Fire*, aunque las dificultades y los "Perks" que se ven en el plugin son claramente un homenaje al Killing Floor 1 original. Lo unico que lamento fue no poder implementar el Perk "Firebug" del KF1, ya que esto era simplemente imposible. Bah, en realidad **ERA POSIBLE** pero era un excesivo trabajo, el codigo que demandaria hacer funcionar el Firebug seria mayor a todo el plugin en si, eso... no es realmente balanceado... Ademas, tendria otro problema, que armas dejarle a dicho Perk? Sven Co-op no tiene un amplio arsenal de armas a diferencia del KF1.
 
 Toda la forma en que este survival modifica el juego hizo que el proyecto Survival DeluXe -*Abreviado SDX*- sea finalmente un servidor survival el cual disfrute trabajar. Su codigo lo veo bien escrito, aunque puede ser mejor, ahora que tu podras mejorarlo, verdad?
 
